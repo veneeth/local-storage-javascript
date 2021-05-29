@@ -41,6 +41,13 @@ function appendComment(event) {
 	commentInput.value = ''
 
 	//Local Storage
+	localStorage.setItem('commentList', commentList.innerHTML)
 }
 
 submit.addEventListener('click', appendComment, false)
+
+const save = localStorage.getItem('commentList')
+
+if (save) {
+	commentList.innerHTML = save
+}
