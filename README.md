@@ -2,7 +2,7 @@
 
 Javascript
 
-A walk through of step by step process of creating a local storage for the data which we want to preview even after the website reloads.
+A walk through of step by step process on how to use browser local storage for the data which we want to preview even after the website reloads.
 
 Javascript has been used.
 
